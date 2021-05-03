@@ -1,3 +1,5 @@
+
+
 <!doctype html>
 <html lang="fr">
   <head>
@@ -8,42 +10,39 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
      <link rel="stylesheet" href="style.css">
-     <link rel="stylesheet" href="test-rsma">
-     
-    
   </head>
-  <body>
-   
-    <div id="app-container ">
-      
-      <div id="score-container">Score: 0</div>
-      <h2 id="app-title">TEST</h2>
-      <div id="questions-container"></div>
-  
+	<body id="fond" >
     
-        
-        <!--<div class="answers"> </div>
-        <div class="answer"> reponse </div>
-        <div class="answer"> reponse </div> 
-        <div class="answer"> reponse </div>
-        <div class="answer"> reponse </div>
-      </div>
-      <div class="question-feedback"> 
+ 
 
-      </div> -->
 
-      <label for="appt">Choose a time for your meeting:</label>
-
-      <input type="time" id="appt" name="appt"
-             min="00:00" max="10:00" required>
+		<div id="container-sm">
+            <h1>FIN DU TEST</h1>
+           <h2>Merci à vous</h2>
+   			 
+                <div id="score-container">Votre Score est de: <br> 0%</div>
+                
+               
+              
+                </div>
+               
+                
+              
       
-      <small>minuteur</small>
+
+      
+   
+
+      
       
   
     <!-- Scripts -->
-    <script src="/script.js"></script>
-    <script src="/question.js"></script>
-  
+    <script src="/script.js">
+    
+    
+    </script>
+   
+    
 
     <!-- Optional JavaScript; choose one of the two! -->
 
@@ -59,3 +58,8 @@
     -->
   </body>
 </html>
+
+
+
+
+
