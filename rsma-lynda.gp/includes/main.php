@@ -1,8 +1,11 @@
-<div class="starter-template container">
-    <div class="row">
-        <div class="col-md-4">
-        </div>
-        <div class="col-md-4">
+<body>
+    <div class="page-wrapper bg-gra-03 p-t-45 p-b-50">
+        <div class="wrapper wrapper--w790">
+            <div class="card-5">
+                <div class="card-heading">
+                    <h2 class="title">Formulaire d'inscription</h2>
+                </div>
+                <div class="card-body">
   <form method="POST" action="traitement.php" class="needs-validation" novalidate>
                 <div class="form-group">
                     <label>Civilité :</label>
@@ -74,6 +77,7 @@
                     <div class="valid-feedback">
                         Champ correct!
                     </div>
+                </div>   
                 <div class="form-group">
                     <label>Adresse Complémentaire :</label>
                     <input type="text" placeholder="Appartement,Bâtiment,Secteur" class="form-control" name="complementaire">
@@ -104,17 +108,23 @@
                         <option value="3">La réunion</option>
                         <option value="4">France</option>
                     </select>
-                    <div class="valid-feedback">
-                        Champ correct!
-                    </div>
-                </div>
-                <p class="champ-obligatoire">(*) Champ Obligatoire</p>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-
-
-  </div>
+                <div class="valid-feedback">
+                                            Champ correct!
+                                        </div>
+                                        <div class="select-dropdown"></div>
+                                    </div>
+                                </div>
+                                <p class="champ-obligatoire">(*) Champ Obligatoire</p>
+                            </div>
+                        
+                        <div>
+                            <button class="btn btn--radius-2 btn--red" style="background: #ff4b5a;" type="submit">Enregistrer</button>
+                        </div>
+                        
+                    </form>
+                    
             <script>
+
             // Example starter JavaScript for disabling form submissions if there are invalid fields
             (function() {
                 'use strict';
@@ -133,8 +143,9 @@
                     });
                 }, false);
             })();
-            </script>
+
+              </script>
+           </div>
         </div>
-        <div class="col-md-4">
-        </div>
-    </div>
+     </div>
+ </div>
