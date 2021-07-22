@@ -45,55 +45,54 @@
 
   <div class="container">
   <form action="traitement.php" method="post">
-      
 
-<p>Question1</p>
+
+<p>Question3</p>
 
 <div>
-<input type="text" id="" name="question" value="couleur de la chaise?" readonly>
+<input type="text" id="" name="question" value="Cent-trente en chiffre" readonly >
 </div>
 <br>
 <p>Reponse</p>
 
 <div>
-<input type="checkbox" name="chaise" id="" value="blanc">
-<label for="Reponse1">blanc</label>
+<input type="checkbox" name="chaise" id="" value="103">
+<label for="Reponse1">103</label>
 </div>
 
 <div>
-<input type="checkbox" id="" name="chaise" value="rose">
-<label for="reponse2">rose</label>
+<input type="checkbox" id="" name="chaise" value="130">
+<label for="reponse2">130</label>
 </div>
 <br>
+<div>
+<?php 
+$id = $_GET["idIn"];
+?>
+  <input type="hidden" name="id" value="<?php echo $id ?>" id="" required>
+</div>
+
+<div>
+  <input type="hidden" name="form" value="3" id="" required>
+    </div>
+
 <div>
 <button type="submit"> Validé </button>
 </div>
 
-<div>
-<?php 
-  $id = $_GET["idIn"];
-?>
-<input type="hidden" name="id" value="<?php echo $id ?>" id="" required>
-</div>
-
-<div>
-<input type="hidden" name="form" value="1" id="" required>
-</div>
-
 </form>
-  </div>
-   
+
   
 
     <!-- Scripts -->
    
+
     <footer id="trois">
         <div class="image">
             <img  src="img/sengager.png" alt="logo engagement" width="120px">
             <img  src="img/drapeaueurope.png" alt="" width="110px">
         </div>
     </footer> 
-   
     
 
     <!-- Optional JavaScript; choose one of the two! -->

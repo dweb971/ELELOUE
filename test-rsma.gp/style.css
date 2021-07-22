@@ -1,85 +1,44 @@
 
-
-/*premiere et dernière page*/
-
-#container-sm{
-  align-content: center;
-  background-color: coral;
-  position:relative;
-  text-align: center;
- 
-}
-
-/* page exo */
+/*Score*/
 
 h2 {
-  text-align: center;
-}
-
-h1{
-  text-align: center;
-}
-
-.container{
-  background-color:#ff7f50;
-  background-size: 200%;
-  border-radius: 20px;
-
-}
-
-em{
-  text-decoration: underline;
-  color: white;
-}
-
-
-
-/*exo français*/
-
-body {
-  background: teal;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    text-align: center;
+  }
   
+h1{
+    text-align: center;
+  }
+
+/*header and footer*/
+
+#first{
+    height: 250px;
+    
+    }
+
+#trois{
+    margin-top: 90px;
+width: 1700px;
+ height: 120px;
+ margin-left: 500px;
 }
 
+ /*exo français*/
 
-.base {
- 
-  position: relative;
-  height: 150px;
-  width: 150px;
-  top: 5px;
-  left: 5px;
-  cursor: pointer;
-}
-
-.tenu {
-  border: solid 5px #ccc;
-}
+em {
+    text-decoration: underline;
+    color: black;
+  }
 
 .case {
-  display: inline-block;
-  height: 80px;
-  width: 160px;
-  margin: 10px;
-  border: solid 3px black;
-  background: #fff;
-}
-
-.hovered {
-  background: #f4f4f4;
-  border-style: dashed;
-}
+    display: inline-block;
+    height: 80px;
+    width: 160px;
+    margin: 10px;
+    border: solid 3px black;
+    background: #fff;
+  }
 
 
-.table-bordered{
-  border: 2px solid black;
-  width: 250px;
-  height: 200px;
- text-align: center;
- display: inline-table;
- background-color: gray;
-}
+
 
